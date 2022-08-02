@@ -17,14 +17,14 @@ jobs:
 
       - name: Run sign
         env:
-          MOGUDING_DEVICE: ${{ secrets.DEVICE }}
-          MOGUDING_PHONE: ${{ secrets.PHONE }}
-          MOGUDING_PASSWORD: ${{ secrets.PASSWORD }}
-          MOGUDING_PROVINCE: ${{ secrets.PROVINCE }}
-          MOGUDING_CITY: ${{ secrets.CITY }}
-          MOGUDING_ADDRESS: ${{ secrets.ADDRESS }}
-          MOGUDING_LONGITUDE: ${{ secrets.LONGITUDE }}
-          MOGUDING_LATITUDE: ${{ secrets.LATITUDE }}
+          MOGUDING_DEVICE: android
+          MOGUDING_PHONE: 16710247492
+          MOGUDING_PASSWORD: Zph123456
+          MOGUDING_PROVINCE: 云南省
+          MOGUDING_CITY: 昆明市
+          MOGUDING_ADDRESS: 官渡区太和街道拓东路15
+          MOGUDING_LONGITUDE: 102.71871
+          MOGUDING_LATITUDE: 25.0332
           MOGUDING_TYPE: "END"
           MOGUDING_DESCRIPTION: ${{ secrets.DESCRIPTION }}
           MOGUDING_SCT_KEY: ${{ secrets.SENDKEY }}
